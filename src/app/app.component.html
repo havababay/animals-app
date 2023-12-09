@@ -1,2 +1,10 @@
 <app-header></app-header>
-<app-animal></app-animal>
+<app-animal 
+    [currentAnimal]="myCat" 
+    (favoriteAnimal)="printFavorite($event)">
+</app-animal>
+<app-animal 
+    [currentAnimal]="myDog"
+    (favoriteAnimal)="printFavorite($event)">
+</app-animal>
+<app-animals-summary [allAnimals]="animals"></app-animals-summary>

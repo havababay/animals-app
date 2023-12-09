@@ -1,0 +1,13 @@
+<h1>Animal Details</h1>
+<div class="animal-container">
+    <div>
+        <div>Name : {{ currentAnimal.name }}</div>
+        <div>Species: {{ currentAnimal.species }}</div>
+        <div>Sound: {{ currentAnimal.makeSound() }} </div>
+    </div>
+    <div>
+        <button mat-icon-button (click)="favoriteClicked()">
+            <mat-icon>favorite</mat-icon>
+        </button>
+    </div>
+</div>

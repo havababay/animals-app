@@ -1,0 +1,7 @@
+.summary-container {
+    display: flex;
+}
+
+.summary-item {
+    padding-right: 8px;
+}
